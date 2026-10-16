@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2026.7.3/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2026.7.3/core.js"></script>
+    <title>Q2 Seatwork #1</title>
+    <style>
+        body{
+            background-image: url(https://i.pinimg.com/originals/e2/ae/ef/e2aeef6c605766fc8611c90dc479a66d.gif);
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+
+        input{
+            font-family: 'Courier New', Courier, monospace;
+            border: 3px solid rgb(80, 6, 6);
+            border-radius: 30px;
+            padding: 10px;
+            width: 40%;
+            
+            
+
+        }
+
+        .container{
+            border: 3px solid rgb(80, 6, 6);
+    border-radius: 30px;
+    background-color: black;
+    padding: 45px 20px;
+    width: 600px;
+    max-width: 90%;
+    margin: 25px auto;
+    box-sizing: border-box;
+    text-align: center;
+        }
+
+        button{
+            background-color: rgb(80, 6, 6);
+            border: 3px solid;
+            border-radius: 15px;
+             padding: 10px 18px;
+            margin-top: 10px;
+            font-family: 'Courier New', Courier, monospace;
+            cursor: pointer;
+        }
+
+        h1{
+            font-family: 'Courier New', Courier, monospace;
+            border: 3px solid rgb(80, 6, 6);
+            border-radius: 15px;
+            background-color: aliceblue;
+        }
+
+        #result{
+             font-family: 'Courier New', Courier, monospace;
+            border: 3px;
+            border-radius: 15px;
+            background-color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>RAINBOW CATERING CLUB</h1>
+    
+    <div class="container">
+        <input type="text" id="first_name" placeholder="Enter your First Name here imnida!">
+        <input type="text" id="last_name" placeholder="Enter your Last Name here imnida!">
+
+        <button py-dblclick="check_member">CHECK IMNIDA!</button>
+    </div>
+
+    <h1>Enter your Full Name here to check your status imnida!</h1>
+        
+
+
+    <div id="result"></div>
+    <py-script src="main.py"></py-script>
+</body>
+</html>
